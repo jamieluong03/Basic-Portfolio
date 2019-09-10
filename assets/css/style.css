@@ -1,0 +1,25 @@
+body {
+    background:url(../images/trees.png);
+}
+
+#box1 {
+    background-color:#74d1ca;
+}
+
+#name {
+    text-align:center;
+    color:white;
+}
+
+#box2 {
+    background-color:white;
+}
+
+#about {
+    text-align:center;
+    color:#74d1ca;
+}
+
+#p1 {
+    font-family:Georgia;
+}
