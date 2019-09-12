@@ -4,10 +4,12 @@ body {
     margin:-25px;
 }
 
-#namebackground {
+header{
     background-color:white;
     height:100px;
-    position:relative;
+    border-style:solid;
+    border-width:1px;
+    width:100%;
 }
 
 
@@ -16,9 +18,11 @@ body {
     color:white;
     background-color:lightseagreen;
     margin-left:230px;
-    width:200px;
-    height:100px;
-    line-height:3.5;
+    width:230px;
+    height:80px;
+    line-height:3;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
 }
 
 #about {
@@ -62,10 +66,22 @@ h2 {
 
 #links {
     font-weight:bold;
-    font-size:25px;
+    font-size:26px;
     float:right;
     position:absolute;
     left:1220px;
     bottom:30px;
 
+}
+
+footer {
+    border-style:solid;
+    border-top-width:8px;
+    border-width:1px;
+    border-color:#4aaaa5;
+    background-color:white;
+    position:fixed;
+    width:100%;
+    left:0px;
+    top:660px;
 }
