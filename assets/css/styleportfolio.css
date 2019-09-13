@@ -38,7 +38,7 @@ header {
     align-content: center;
     margin:70px auto;
     padding:15px;
-    height:500px;
+    height:400px;
     padding-top:10px;
 }
 
@@ -116,5 +116,5 @@ footer {
     border-top-width:8px;
     border-style:solid;
     border-color:#4aaaa5;
-    height:85px;
+    height:100px;
 }
