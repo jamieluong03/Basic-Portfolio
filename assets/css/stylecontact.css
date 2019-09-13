@@ -10,10 +10,9 @@ header {
     border-color:#cccccc;
     position:static;
     margin:-25px auto;
-
 }
 
-#name {
+#name{
     background-color:#4aaaa5;
     color:#ffffff;
     width:250px;
@@ -22,9 +21,8 @@ header {
     margin-left:230px;
     font-size:12px;
     line-height:4;
-
-
 }
+
 
 #links {
     position:absolute;
@@ -35,38 +33,44 @@ header {
 
 .wrap {
     background-color:#ffffff;
-    border-color:#dddddd;
+    border-color:#555;
     width:960px;
     align-content: center;
     margin:50px auto;
     padding:15px;
     height:auto;
+    padding-top:5px;
 }
 
-
-img {
-    height:225px;
-    width:300px;
-    float:left;
-    padding-right:30px;
-    padding-bottom:20px;
-}
-
-#about {
+#contact {
+    color:#4aaaa5;
     border-bottom-style: solid;
     border-color:grey;
     text-align:left;
-    color:#74d1ca;
     font-size:30px;
     height:40px;
 }
 
+input[type=text] {
+    width:100%;
+    margin: 8px 0;
+    box-sizing:border-box;
+    padding: 12px 20px;
+    border: 1px solid #555;
+}
 
-p {
-    font-family:Arial, Helvetica, sans-serif;
-    color:#777777;
-    text-align: justify;
-    line-height:1.5;
+#message {
+    padding:50px;
+}
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    border:none;
+    color:white;
+    padding:10px 32px;
+    margin: 4px 2px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -77,3 +81,4 @@ footer {
     border-color:#4aaaa5;
     height:85px;
 }
+
